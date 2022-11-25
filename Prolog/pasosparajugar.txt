@@ -1,0 +1,4 @@
+Pasos: 
+1- Change directory a la carpeta del juego.
+2- [connect4].
+3 connect4. A - B - C - D - E - F - G 

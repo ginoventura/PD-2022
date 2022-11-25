@@ -1,0 +1,114 @@
+Funciones varias:
+
+- abs: valor absoluto de un número
+- abs 3 = 3
+
+- all: devuelve True si todos los items de la lista cumplen la condición
+- all (<10)[1,3,5,7,9] = True
+
+- any: devuelve True si algún elemento de la lista cumple la condición
+- any (1==)[0,1,2,3,4,5] = True
+
+- break: separa una lista teniendo en cuenta la condición
+- break (3==)[1,2,3,4,5] = ([1,2][3,4,5])
+
+- ceiling: redondea para arriba
+- ceiling 3.7 = 4
+
+- concat: concatena dos listas
+- concat[[1,2,3], [4,5,6]] = [1,2,3,4,5,6]
+
+- cycle: crea una lista circular desde una lista finita
+- take 10(cycle[1,2,3]) = [1,2,3,1,2,3,1,2,3,1]
+
+- div: división entre dos números
+- div 4 2
+
+- dropWhile: crea una lista desde una, tomando los elementos desde la condicion
+- dropWhile (<3)[1,2,3,4,5] = [3,4,5]
+
+- enumFrom: retorna un array de una enumeración comenzando desde el argumento
+- take 10(enumFrom 'a') = "abcdefghij"
+
+- enumFromTo: retorna un array de una enumeración comenzando desde el primer argumento hasta el segundo argumento
+- enumFromTo 5 9 = [5,6,7,8,9]
+
+- even: retorna verdadero si la integral es par
+- even 12 = true
+
+- elem: retorna True si la lista contiene un elemento igual al primer argumento.
+- elem 1 [1,2,3,4,5] = True
+
+- filter: retorna una lista cumpliendo la condición
+- filter (>5)[1,2,3,4,5,6,7,8,9] = [6,7,8,9]
+
+- floor: redondea para abajo
+- floor 3.7 = 3
+
+- fst: retorna el primer elemento de una tupla
+- fst(1,2) = 1
+
+- head: retorna el primer elemento de una lista
+- head[1,2,3] = 1
+
+- init: acepta una lista y la retorna sin el último elemento
+- init[1,2,3] = [1,2]
+
+- iterate: crea una lista finita donde el primer item es calculado aplicando la funcion en el segundo argumento.
+- take 10(iterate(2*)1) = [1,2,4,8,16,32,64,128,256,512]
+
+- last: devuelve el último elemento de una lista.
+- last[1,2,3] = 3
+
+- length: retorna el número de elementos de una lista.
+- length[1,2,3] = 3
+- length "Hello" = 5
+
+- map: retorna una lista construida aplicando la función a todos los ítems.
+- map abs [-1,-3,4,-12] = [1,3,4,12]
+
+- max: retorna el elemento mas grande de dos argumentos.
+- max 2 4 = 4
+
+- maximum: retorna el máximo valor de una lista.
+- maximum[3,2,6,4,1,2,3] = 6
+
+- min: retorna el elemento más pequeño de dos argumentos.
+- min 2 4 = 2
+
+- minimum: retorna el mínimo valor de una lista. 
+- minimum[4,5,2,1,6,3,8] = 1
+
+- negate: cambia el signo de un número.
+- negate 3 = -3
+
+- not: cambia el signo de un valor booleano.
+- not True = False
+
+- notElem: retorna False si la lista contiene un elemento igual al primero argumento.
+- notElem 1[9,5,1,2,3,6,4,8] = False
+
+- null: retorna True si la lista está vacía.
+- null[] = True
+
+- pred: devuelve el elemento anterior al argumento.
+- pred 5 = 4
+
+- print: imprime en pantalla.
+- print([1,2,3]++[3,4,5]) = [1,2,3,3,4,5]
+
+- product: calcula el producto de todos los elementos de una lista.
+- product[1,2,3,4] = 24
+
+- round: redondea al mas cercano.
+- round 3.4 = 3
+- round 3.6 = 4
+
+- zip: hace una lista de tuplas, cada tupla contiene los elementos en la misma posición original.
+- zip[1,2,3][9,8,7] = [(1,9),(2,8),(3,7)]
+
+
+--list_may :: Ord a => Int -> [a] -> [a] 
+--list_may n l = take n (reverse (sort l)) 
+
+

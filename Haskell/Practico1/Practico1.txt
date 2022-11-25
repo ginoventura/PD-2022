@@ -1,0 +1,28 @@
+1) Redefinir la función abs (sin usar la predefinida) tal que abs x es el valor absoluto de x. 
+Por ejemplo, 
+abs (-3) -> 3 
+abs 3 -> 3
+
+2) Redefinir la función signum tal que signum x es -1 si x es negativo, 0 si x es cero y 1 si x es positivo. 
+Por ejemplo, 
+signum 7 -> 1 
+signum 0 -> 0 
+signum (-4) -> -1
+
+3) Definir la función anterior tal que anterior x es el anterior del número natural x. 
+Por ejemplo, 
+anterior 3 -> 2 
+anterior 0 -> Program error: pattern match failure: anterior 0
+
+4) Definir la función siguiente tal que siguiente x sea el siguiente del número entero x. 
+Por ejemplo, 
+siguiente 3 -> 4
+
+5) Definir la función doble tal que doble x es el doble de x. 
+Por ejemplo, 
+doble 3 -> 6 
+
+6) filterPositivos: dada una lista de enteros, devuelve una lista con los elementos que son positivos. (usar recursividad)
+
+
+

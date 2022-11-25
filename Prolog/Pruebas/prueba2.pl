@@ -1,0 +1,1 @@
+lista(M,N):- M<N, nl, write(M), NuevoM is M+1, lista(NuevoM, N).

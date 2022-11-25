@@ -1,0 +1,1 @@
+primer_elemento(X, [X|_]).

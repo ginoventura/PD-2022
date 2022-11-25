@@ -1,0 +1,53 @@
+1) ingresar por teclado una cantidad. Esa cantidad indicara cuantos valores ingresar.
+Calcular el promedio de los valores ingresado
+
+2) Crear un algoritmo que reciba tres valores que seran cantidad de respuestas correctas, cantidad de respuestras incorrectas
+y cantidad de respuestas en blanco.
+Cada respuesta correcta tiene un puntaje de 5, cada incorrecta tiene un puntaje de -1 y las respuestas en blanco 0.
+Calcular el puntaje para cada tipo de respuesta y el puntaje total.
+
+3)Ingresar por teclado 20 números enteros y calcular cuántos de ellos son pares. Se emprime el resultado.
+
+4)Ingresar cantidad de numeros, generar esa cantidad en forma aleatoria de numeros enteros positivos , 
+y determinar cuantos son impares.
+
+5)Escriba un algoritmo tal que dado como datos X números
+enteros, obtenga el número de ceros que hay entre estos
+números. Por ejemplo, si se ingresa 6 datos: 9 0 4 8 0 1
+El algoritmo arroja que hay 2 ceros.
+
+6)Ingresar 50 caracteres e indicar cuantas veces se repite el carácter ‘a’. 
+
+7)Se tiene N temperaturas. Se desea calcular su media y
+determinar entre todas ellas cuantas son superiores o iguales a
+esa media.
+
+8)Escribir un algoritmo que pida un vector de caracteres por
+pantalla e invierta el orden de los caracteres mostrándolo por
+pantalla. 
+
+9)Realizar un algoritmo que maneje un vector de enteros a través
+de un menú con seis opciones:
+1.- Añadir un elemento al vector (comprobando que el vector
+no esté lleno)
+2.- Eliminar un elemento del vector (comprobando que el
+vector no esté vacío)
+3.- Listar el contenido del vector
+4.- Contar las apariciones de un número en el vector
+5.- Calcular la media y el máximo de los elementos del vector
+0.- Terminar
+
+10)Elaborar algoritmo que busque en forma secuencial un
+VALOR dentro de un arreglo de N elementos numéricos y
+retorne su posición. 
+
+11)Cargar un vector de 25 posiciones con numero enteros, a
+partir de este crear 2 vectores; uno con los números pares y el
+otro con los numero impares, además decir de los vectores
+cual es más grande y el número de elementos en cada vector. 
+
+12)Se tiene un vector, se pide ingresar 20 nombres de animales,
+luego se debe buscar el nombre de un animal que se ingrese
+por teclado, el algoritmo debe imprimir el nombre de los
+animales que se encuentran al lado de la posición donde está
+el animal buscado, tanto a la derecha como izquierda. 

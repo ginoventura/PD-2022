@@ -1,0 +1,5 @@
+1) Dada una lista de enteros, devuelve la lista de los cuadrados de los elementos positivos, en el mismo orden (usar la funcion anterior)
+2)Definir la función esPositivo tal que esPositivo se verifica si x es positivo.
+Por ejemplo:
+esPositivo 5 -> True 
+esPositivo (-5) -> False
